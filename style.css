@@ -1,0 +1,157 @@
+ body {
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+
+ }
+
+ .topbar {
+     padding-left: 30px;
+     padding-top: 20px;
+     padding-right: 30px;
+     color: lightgray;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .topbar:hover {
+     color: black;
+     font-weight: bold;
+     text-decoration: underline #8071D0 5px;
+     font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ #main {
+     width: 100%;
+     height: 120px;
+     display: flex;
+     column-count: 3;
+     font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ #your_account {
+
+     background-color: #FFD8DB;
+     color:  #A389CC;
+     font-weight: bold;
+     padding: 20px 40px 20px 40px;
+
+     border: none;
+     border-radius: 20px;
+
+
+
+
+ }
+
+
+ #main_content {
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+     padding: 0px 30px 0px 80px;
+     margin: auto;
+     display: flex;
+
+ }
+
+ #main_image {
+     margin-left: 40px;
+     padding: 40px 20px 100px 70px;
+     text-align: right;
+     width: 100%;
+     height: 100%;
+     display: flex;
+
+
+
+ }
+
+ .new_account {
+
+    background-color:#5243C0;
+    color:  #ffffff;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+
+    border: none;
+    border-radius: 30px;
+ 
+ }
+ #up_arrow {
+   
+    padding-left: 20px;
+
+   
+    text-align: right;
+}
+
+ #down_arrow {
+    
+
+    
+     text-align: right;
+ }
+
+ #new_account_flex {
+     display: flex;
+
+     column-count: 2;
+ }
+ .grey_tick
+ {
+    position: relative;
+    display: inline-block;
+ }
+ .grey_tick .img_top{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+ 
+ }
+ .grey_tick:hover .img_top  {
+    display: block;
+    
+}
+ 
+.oval_1 {
+    width: 30px;
+    height: 15px;
+    background:#FED7DA;
+    border-radius: 20px;
+    border: none;
+}
+.oval_2{
+    width: 30px;
+    height: 15px;
+    background:#FD6534;
+    border-radius: 20px;
+    border: none;
+}
+.oval_3 {
+    width: 30px;
+    height: 15px;
+    background:#9ED095;
+    border-radius: 20px;
+    border: none;
+}
+.oval_4 {
+    width: 30px;
+    height: 15px;
+    background:#FFE4A0;
+    border-radius: 20px;
+    border: none;
+}
+.user
+{
+  text-decoration: none;
+}
+.user:hover{
+    border: 1px ;
+     padding:0px ;
+    box-shadow: 5px 10px 18px #888888;
+}
